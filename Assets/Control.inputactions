@@ -1,0 +1,109 @@
+{
+    "name": "Control",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "52427e1c-b0fb-48cc-9337-6eb4122e01bd",
+            "actions": [
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "6b45e576-2a6e-4e5c-9b31-3cf843847350",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "361cea1a-3415-487f-9a73-bbcd5c562ac0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Spin",
+                    "type": "Button",
+                    "id": "a4887ed6-076e-41ed-8d6d-3ae88a274668",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "InstantFall",
+                    "type": "Value",
+                    "id": "8cea69c4-fa6d-485f-baeb-1cc930bca0cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "8aac19f1-1c90-4050-8ae5-299944fd6d71",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "29afe8fb-7f31-4dae-864f-c440166796de",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d941de0d-6171-4e8b-beb4-53f515b37353",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ede9661f-0abb-440b-81dc-86a954c369db",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1adccab-48bd-4db1-9ce6-cfc0060a39fc",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InstantFall",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e665024c-f586-4dcd-b58d-a452ff321370",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
